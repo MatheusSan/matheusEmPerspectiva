@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Matheus — Em Perspectiva: relatos, citações e reflexões sobre experiências, culturas e cotidianos diferentes."
+    />
+    <title>Matheus — Em Perspectiva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">M</div>
+          <div>
+            <p class="eyebrow">Blog de relatos</p>
+            <h1>Matheus — Em Perspectiva</h1>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#relatos">Relatos</a>
+          <a href="#citacoes">Citações</a>
+          <a href="#sobre">Sobre</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="section-label">Reflexões de viagem e cotidiano</p>
+            <h2>Entre paisagens, pessoas e percepções.</h2>
+            <p class="hero-text">
+              Acompanhe registros de rotas, encontros inesperados e olhares que despertam
+              novas formas de viver o mundo.
+            </p>
+            <div class="hero-actions">
+              <a href="#relatos" class="btn btn-primary">Ver relatos</a>
+              <a href="#sobre" class="btn btn-secondary">Conhecer a proposta</a>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Destaque do canal">
+            <div class="glass-panel">
+              <p class="mini-label">Canal em desenvolvimento</p>
+              <h3>Reflexões sobre cotidianos diferentes</h3>
+              <ul>
+                <li>Viagens e experiências locais</li>
+                <li>Histórias de encontros e cultura</li>
+                <li>Observações que expandem o olhar</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="relatos" class="content-section">
+          <div class="section-heading">
+            <div>
+              <p class="section-label">Relatos</p>
+              <h2>Últimas produções</h2>
+            </div>
+            <span class="badge">Atualizações em constante movimento</span>
+          </div>
+
+          <div id="report-list" class="report-list" aria-live="polite"></div>
+        </section>
+
+        <section id="citacoes" class="quotes-section">
+          <div class="section-heading compact">
+            <div>
+              <p class="section-label">Citações</p>
+              <h2>Frases que acompanham a jornada</h2>
+            </div>
+          </div>
+
+          <div id="quotes-list" class="quotes-list"></div>
+        </section>
+
+        <section id="sobre" class="about-section">
+          <div class="about-card">
+            <p class="section-label">Sobre o projeto</p>
+            <h2>Um espaço para contar histórias que transformam a visão.</h2>
+            <p>
+              Este blog reúne relatos, citações e imagens que complementam as reflexões do
+              canal. A ideia é transformar experiências em memória, permitindo que cada
+              encontro vire uma narrativa mais profunda e compartilhável.
+            </p>
+            <p>
+              O conteúdo será alimentado por um arquivo JSON, tornando simples a manutenção e a
+              expansão do projeto no futuro, quando a integração com um banco de dados puder ser
+              feita sem precisar reescrever a estrutura do site.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="report-modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Fechar modal">×</button>
+        <div class="modal-image-wrap">
+          <img id="modal-image" src="" alt="" />
+        </div>
+        <div class="modal-content">
+          <p id="modal-meta" class="modal-meta"></p>
+          <h3 id="modal-title"></h3>
+          <p id="modal-excerpt" class="modal-excerpt"></p>
+          <div id="modal-body" class="modal-body"></div>
+          <div id="modal-quote" class="modal-quote"></div>
+          <div id="modal-actions" class="modal-actions"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

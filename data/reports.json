@@ -1,0 +1,114 @@
+{
+  "reports": [
+    {
+      "id": "relato-01",
+      "title": "Ruas, sons e silêncio em uma cidade que respira devagar",
+      "date": "21 de março de 2026",
+      "location": "Foz do Iguaçu",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "Um relato sobre o ritmo de uma cidade que surpreende pela calma e pela intensidade dos detalhes.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-1",
+      "tags": ["cotidiano", "reflexão", "viagem"],
+      "body": [
+        "A rotina de uma cidade nova nem sempre aparece em grandes monumentos. Às vezes, ela está no som de uma rua vazia, no café da esquina e na forma como o tempo parece se dobrar para quem observa com atenção.",
+        "É fascinante perceber como o cotidiano pode revelar uma cultura inteira sem precisar de roteiro. Há histórias nas pequenas pausas, na conversa breve com um morador e na forma como a paisagem se entrega ao olhar atento.",
+        "Esse tipo de experiência ajuda a enxergar que a viagem também é interior. Ela muda a forma como percebemos a rotina e, ao mesmo tempo, nos lembra que o mundo é muito maior do que o espaço imediato em que estamos acostumados a viver."
+      ],
+      "quote": "Nem toda grande descoberta começa com um destino. Muitas vezes, começa com um olhar mais lento."
+    },
+    {
+      "id": "relato-02",
+      "title": "Entre mercados e caminhos: aprendendo a ouvir o lugar",
+      "date": "14 de abril de 2026",
+      "location": "Mérida",
+      "image": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "A partir de um mercado local, surgem observações sobre cultura, relação e tempo.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-2",
+      "tags": ["cultura", "encontro", "observação"],
+      "body": [
+        "Os caminhos se apresentam de forma mais clara quando estamos dispostos a reduzir a velocidade. O mercado revela não só aquilo que é vendido, mas também a maneira como as pessoas convivem com a cidade, com o dinheiro, com a memória.",
+        "É no detalhe que a experiência ganha profundidade: a comida, as vozes, os gestos, a presença de quem sabe o lugar melhor do que qualquer guia turístico.",
+        "Ao escutar o ambiente, percebemos que viajar pode ser também um ato de humildade. O mundo não precisa ser entendido de uma vez, basta ser reconhecido com atenção."
+      ],
+      "quote": "A melhor forma de conhecer um lugar é aprender a escutar antes de julgar."
+    },
+    {
+      "id": "relato-03",
+      "title": "No fim da estrada, o que permanece é a história das pessoas",
+      "date": "08 de maio de 2026",
+      "location": "Patagônia",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "Uma viagem de paisagens extremas que se torna uma reflexão sobre memória e presença.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-3",
+      "tags": ["paisagem", "memória", "mochilão"],
+      "body": [
+        "As paisagens mais impactantes nem sempre são as maiores. Algumas são silenciosas, discretas e exigem atenção para serem entendidas. Elas aparecem como uma mistura de vento, sol e distância, mas a verdadeira riqueza está em quem as habita.",
+        "Num lugar extremo, a relação com o tempo muda. O dia vira um ciclo de sobrevivência e presença. Há menos ruído e mais percepção, o que torna qualquer gesto mais genuíno.",
+        "É aí que a viagem ganha sentido: não no registro do lugar, mas na mudança que ocorre dentro de quem se deixa surpreender por ele."
+      ],
+      "quote": "O mundo não se mede apenas por seus monumentos, mas por suas formas de resiliência."
+    },
+    {
+      "id": "relato-04",
+      "title": "Cidades pequenas, histórias grandes: o peso do cotidiano",
+      "date": "22 de maio de 2026",
+      "location": "Salvador",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "Relato sobre como o cotidiano de uma cidade pode ser tão rico quanto qualquer grande roteiro turístico.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-4",
+      "tags": ["cidade", "história", "cotidiano"],
+      "body": [
+        "Cidades menores oferecem uma intimidade que muitas vezes se perde nas grandes capitais. Há uma sensação de proximidade entre as pessoas, uma forma mais direta de perceber a rotina e a cultura em movimento.",
+        "Ainda assim, o que parece pequeno muitas vezes guarda a densidade de uma história inteira. Em cada esquina, em cada conversa e em cada detalhe, há uma forma de vida que se sustenta por tradição, improviso e presença.",
+        "Essa é a grande lição: o cotidiano não é menos importante do que o espetáculo. Ele é justamente a base de tudo o que parece grandioso fora de casa."
+      ],
+      "quote": "A cultura não vive só nos lugares turísticos; vive no que acontece entre uma caminhada e outra."
+    },
+    {
+      "id": "relato-05",
+      "title": "Quando a comida conta a história de um povo",
+      "date": "12 de junho de 2026",
+      "location": "Lisboa",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "Uma jornada sensorial que começa na mesa e termina na compreensão de uma cultura.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-5",
+      "tags": ["comida", "cultura", "memória"],
+      "body": [
+        "A comida é uma das maneiras mais humanas de perceber um lugar. Ela reúne histórias sobre família, memória e improviso. Em uma mesa, tudo pode ser traduzido: a origem, a relação com o território e a forma como as pessoas se reconhecem no mundo.",
+        "Quando observamos a comida como parte de um cenário cultural, percebemos que ela não é apenas sustento. Ela é linguagem, ritual e forma de pertencimento.",
+        "Essa é uma das experiências mais reveladoras de uma viagem: entender que cada prato carrega uma visão própria de tempo, cuidado e identidade."
+      ],
+      "quote": "O sabor de um lugar não se encontra apenas no prato, mas na memória que o acompanha."
+    },
+    {
+      "id": "relato-06",
+      "title": "A arte de viver devagar no meio do movimento",
+      "date": "03 de julho de 2026",
+      "location": "Tokyo",
+      "image": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80",
+      "excerpt": "Uma experiência em uma cidade em ritmo acelerado e uma reflexão sobre presença e atenção.",
+      "videoUrl": "https://www.youtube.com/watch?v=your-video-6",
+      "tags": ["ritmo", "pausa", "cidadania"],
+      "body": [
+        "Quando uma cidade parece correr em direção ao futuro, é fácil esquecer que pessoas ainda precisam de tempo, silêncio e espaço para respirar. No meio do movimento, aparece a oportunidade de aprender a viver com mais presença.",
+        "Nessa cidade, a arquitetura, o gesto e a ordem parecem anunciar uma disciplina que também convida à reflexão. A pergunta central não é como tudo funciona, mas como a vida continua sendo humana em meio à velocidade.",
+        "A viagem nos leva a perceber que a qualidade de vida não é um luxo. É uma escolha que pode ser construída mesmo em ambientes intensos."
+      ],
+      "quote": "Em meio ao movimento, a verdadeira sutileza é encontrar um ritmo que preserve a alma."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Nem todo destino é uma paisagem; às vezes, é uma forma diferente de olhar.",
+      "author": "Matheus em Perspectiva"
+    },
+    {
+      "text": "O cotidiano de outra cultura é um espelho que nos ensina a observar o nosso.",
+      "author": "Matheus em Perspectiva"
+    },
+    {
+      "text": "Há beleza em quem vive intencionalmente, mesmo sem saber que é protagonista de uma história.",
+      "author": "Matheus em Perspectiva"
+    }
+  ]
+}
