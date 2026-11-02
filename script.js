@@ -149,6 +149,11 @@ function openReport(id) {
     closeButton.addEventListener('click', closeReport);
   }
 
+  const closeButtonHeader = modal.querySelector('.modal-close');
+  if (closeButtonHeader) {
+    closeButtonHeader.addEventListener('click', closeReport);
+  }
+
   modal.classList.remove('hidden');
   modal.setAttribute('aria-hidden', 'false');
 }
