@@ -26,50 +26,7 @@ async function loadData() {
     state.reports = data.reports || [];
     state.quotes = data.quotes || [];
   } catch (error) {
-    const fallbackData = {
-      reports: [
-        {
-          id: 'fallback-1',
-          title: 'Ruas, sons e silêncio em uma cidade que respira devagar',
-          date: '21 de março de 2026',
-          location: 'Foz do Iguaçu',
-          image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80',
-          excerpt: 'Um relato sobre o ritmo de uma cidade que surpreende pela calma e pela intensidade dos detalhes.',
-          videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-          tags: ['cotidiano', 'reflexão', 'viagem'],
-          body: [
-            'A rotina de uma cidade nova nem sempre aparece em grandes monumentos. Às vezes, ela está no som de uma rua vazia, no café da esquina e na forma como o tempo parece se dobrar para quem observa com atenção.',
-            'É fascinante perceber como o cotidiano pode revelar uma cultura inteira sem precisar de roteiro. Há histórias nas pequenas pausas, na conversa breve com um morador e na forma como a paisagem se entrega ao olhar atento.',
-            'Esse tipo de experiência ajuda a enxergar que a viagem também é interior. Ela muda a forma como percebemos a rotina e, ao mesmo tempo, nos lembra que o mundo é muito maior do que o espaço imediato em que estamos acostumados a viver.'
-          ],
-          quote: 'Nem toda grande descoberta começa com um destino. Muitas vezes, começa com um olhar mais lento.'
-        },
-        {
-          id: 'fallback-2',
-          title: 'Entre mercados e caminhos: aprendendo a ouvir o lugar',
-          date: '14 de abril de 2026',
-          location: 'Mérida',
-          image: 'https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80',
-          excerpt: 'A partir de um mercado local, surgem observações sobre cultura, relação e tempo.',
-          videoUrl: 'https://www.youtube.com/watch?v=ysz5S6PUM-U',
-          tags: ['cultura', 'encontro', 'observação'],
-          body: [
-            'Os caminhos se apresentam de forma mais clara quando estamos dispostos a reduzir a velocidade. O mercado revela não só aquilo que é vendido, mas também a maneira como as pessoas convivem com a cidade, com o dinheiro, com a memória.',
-            'É no detalhe que a experiência ganha profundidade: a comida, as vozes, os gestos, a presença de quem sabe o lugar melhor do que qualquer guia turístico.',
-            'Ao escutar o ambiente, percebemos que viajar pode ser também um ato de humildade. O mundo não precisa ser entendido de uma vez, basta ser reconhecido com atenção.'
-          ],
-          quote: 'A melhor forma de conhecer um lugar é aprender a escutar antes de julgar.'
-        }
-      ],
-      quotes: [
-        { text: 'Nem todo destino é uma paisagem; às vezes, é uma forma diferente de olhar.', author: 'Matheus em Perspectiva' },
-        { text: 'O cotidiano de outra cultura é um espelho que nos ensina a observar o nosso.', author: 'Matheus em Perspectiva' },
-        { text: 'Há beleza em quem vive intencionalmente, mesmo sem saber que é protagonista de uma história.', author: 'Matheus em Perspectiva' }
-      ]
-    };
-
-    state.reports = fallbackData.reports;
-    state.quotes = fallbackData.quotes;
+    console.error('Error loading data:', error);
   }
 
   renderReports();
@@ -78,6 +35,11 @@ async function loadData() {
 
 function renderReports() {
   if (!reportList) return;
+
+  if (state.reports.length === 0) {
+    reportList.innerHTML = '<p class="no-reports">Não foi possível carregar os relatos.<br><strong>Por favor, tente novamente mais tarde.</strong></p>';
+    return;
+  }
 
   reportList.innerHTML = state.reports
     .map(
