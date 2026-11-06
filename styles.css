@@ -129,6 +129,24 @@ button {
   color: var(--green-deep);
 }
 
+.main-nav .instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.instagram-link svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.instagram-link .instagram-dot {
+  fill: currentColor;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
