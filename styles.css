@@ -591,7 +591,15 @@ button {
   }
 
   .main-nav {
-    gap: 12px;
+    width: 100%;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .main-nav a {
+    flex: 0 0 auto;
+    white-space: nowrap;
   }
 
   .report-list,
